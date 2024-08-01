@@ -1,4 +1,4 @@
-# Machine Translation using RNN, Transformer and Pretrained Models.
+# Machine Translation: RNN, Transformer, and Pretrained Model Implementations
 ## Overview
 This project focused on developing a machine translation system with two primary objectives. For translating English to Spanish, a sequence-to-sequence (Seq2Seq) model was initially created using Gated Recurrent Units (GRUs), followed by an advanced Seq2Seq Transformer model, inspired by the works François Chollet. Additionally, for translating English to Urdu, a pretrained model from Helsinki-NLP was utilized to efficiently achieve high-quality results.
 
