@@ -24,16 +24,25 @@ This project focused on developing a machine translation system with two primary
 - Efficiency: The Transformer architecture’s ability to handle long-range dependencies and parallel processing contributed to reduced training times and better performance.
 - Pretrained Model Utility: The pretrained model for English to Urdu showcased the practical benefits of using models trained on diverse datasets for rapid deployment in specific translation tasks.
 
+### Model Comparison Table
+| Model            | Data Used for Training | Latency           | Implementation Complexity |
+|------------------|-------------------------|-------------------|---------------------------|
+| RNN              | Yes                     | Slower            | Moderate                  |
+| Transformer      | Yes                     | Faster            | High                      |
+| Pretrained Model | No                      | Fastest           | Low                       |
+
 ## Future Work
 - Model Enhancement: Explore advanced Transformer variants or integrate additional contextual information to further enhance translation accuracy and context understanding.
-- Multilingual Capabilities: Expand the project to support more language pairs and fine-tune models for specific domains or genres of text.
-- Deployment: Develop a user-friendly interface or API for integrating these translation models into applications, making them accessible for broader use cases.
+- Multilingual Capabilities: Expand the project to support more language pairs.
 
 ## Data Source for English-Spanish Translation Corpus
 http://storage.googleapis.com/download.tensorflow.org/data/spa-eng.zip
 
-## License:
+## Bibliography
+François Chollet, “Deep_Learning_with_Python”. Manning Publications. 2021.
+
+## License
 This project is licensed under the Raza Mehar License. See the LICENSE.md file for details.
 
-## Contact:
+## Contact
 For any questions or clarifications, please contact Raza Mehar at [raza.mehar@gmail.com].
