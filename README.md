@@ -27,11 +27,13 @@ The evaluation centered on assessing the latency, complexity, and accuracy of th
 - Pretrained Model Utility: The pretrained model for English to Urdu showcased the practical benefits of using models trained on diverse datasets for rapid deployment in specific translation tasks.
 
 ### Model Comparison Table
-| Model                       | Data Used for Training | Latency           | Implementation Complexity |
-|-----------------------------|-------------------------|-------------------|---------------------------|
-| GRU                         | Yes                     | Slower            | Moderate                  |
-| Transformer                 | Yes                     | Faster            | High                      |
-| Helsinki-NLP/opus-mt-en-ur  | No                      | Fastest           | Low                       |
+| Model                       | Data Used for Training | Training Duration* | Implementation Complexity |
+|-----------------------------|-------------------------|--------------------|---------------------------|
+| GRU                         | Yes                     | Long               | Moderate                  |
+| Transformer                 | Yes                     | Moderate           | High                      |
+| Helsinki-NLP/opus-mt-en-ur  | No                      | Not Applicable     | Low                       |
+
+\* Both the GRU and Transformer models were trained for 15 epochs each. Helsinki-NLP/opus-mt-en-ur was already pretrained.
 
 ## Future Work
 - Model Enhancement: Explore advanced Transformer variants or integrate additional contextual information to further enhance translation accuracy and context understanding.
